@@ -164,6 +164,19 @@ button {
   top: -110px;
 }
 
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.Floating-logo {
+    animation: rotating 5s linear infinite;
+}
+
 /* latest-deals-section  */
 .latest-deals-container {
   margin-top: 150px;
